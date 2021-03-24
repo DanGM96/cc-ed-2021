@@ -2,7 +2,7 @@
 
 Os tipos primitivos são tipos de dados pré-definidos que ocupam um espaço específico em memória para armazenar o conteúdo. Os tipos de dados/variáveis primitivas no Java são 8:
 
-![](java-tipos-primitivos.png)
+![](java-tipos-primitivos.png) \* Correção: boolean tem o tamanho de 8 bits, pois o tamanho mínimo em java é 1 byte
 
 ## Projeto
 
