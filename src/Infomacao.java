@@ -23,15 +23,8 @@ public class Infomacao {
     public char[] alfabetoDesatualizado = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'L', 'M', 'N', 'O', 'P',
             'Q', 'R', 'S', 'T', 'U', 'V', 'X', 'Z' };
 
-    // 1 bit (8 vezes)
+    // 1 bit
     public boolean cidadeHabitavel = true;
-    public boolean temCampoFutebol = true;
-    public boolean temHospital = true;
-    public boolean temAcademia = true;
-    public boolean temBaseNaval = false;
-    public boolean temCovid = true;
-    public boolean temVacina = false;
-    public boolean codigoComplex = false;
 
     // Soma total = 600 bits
 }

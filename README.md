@@ -15,7 +15,7 @@ Para este pequeno projeto, foram utlizadas pelo menos um de cada tipo primitivo 
 - 1 do tipo float
 - 1 do tipo double
 - 1 do char[23] (vetor de tamanho 23)
-- 8 do tipo boolean
+- 1 do tipo boolean
 
 Com isso totalizamos exatamente 600 bits (75 bytes).
 
