@@ -3,5 +3,5 @@
  */
 public class Cliente {
 
-    String nome;
+    private String nome;
 }
