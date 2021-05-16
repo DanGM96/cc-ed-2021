@@ -136,5 +136,46 @@ public class Lista<T> {
         return true;
     }
 
+    // 1. Implemente um método contém, semelhante ao método contains da classe ArrayList;
+    public boolean contem(T elemento) {
+        for (int i = 0; i < this.tamanho; i++) {
+            if(this.elementos[i].equals(elemento)) {
+                return true;
+            }
+        }
+        return false;
+    }
     
+    // 2. Implemente um método semelhante ao método lastIndexOf da classe ArrayList;
+    public int ultimoIndiceDe(T elemento) {
+        for (int i = this.tamanho - 1; i >= 0; i--) {
+            if(this.elementos[i].equals(elemento)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    // 3. Implemente o método remove(T elemento), onde será possível remover um elemento da lista passando o mesmo como parâmetro.
+    public void remove(T elemento){
+        for (int i = 0; i < this.tamanho; i++) {
+
+            if(this.elementos[i].equals(elemento)) {
+
+                for (int j = i; j < this.tamanho - 1; j++) {
+                    this.elementos[j] = this.elementos[j + 1];
+                }
+                this.tamanho--;
+                break; // Retire o break se quiser remover todas as aparições do mesmo elemento na lista
+            }
+        }
+    }
+
+    // 4. Implemente o método limpar, onde todos os elementos da lista são removidos. Esse método é semelhante ao método clear da classe ArrayList;
+    public void limpar() {
+        for (int i = 0; i < this.tamanho; i++) {
+            this.elementos[i] = null;
+        }
+        this.tamanho = 0;
+    }
 }
