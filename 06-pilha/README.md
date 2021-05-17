@@ -30,7 +30,10 @@ Usando a classe Pilha ou Stack, desenvolva um algoritmo que faça a conversão d
 
 **Desafio 2: Símbolos balanceados**
 
-Escreva uma programa para verificar se uma expressão matemática tem os parênteses agrupados de forma correta, isto é: 1. SE o número de parênteses à esquerda e à direita são iguais e; 2. se todos os parênteses aberto é seguido posteriormente por um fechamento de parênteses.
+Escreva uma programa para verificar se uma expressão matemática tem os parênteses agrupados de forma correta, isto é:
+
+1. SE o número de parênteses à esquerda e à direita são iguais e;
+2. se todos os parênteses aberto é seguido posteriormente por um fechamento de parênteses.
 
 Veja alguns exemplos:
 
