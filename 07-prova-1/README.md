@@ -2,7 +2,7 @@
 
 **↪ Conteúdo cobrado:** _Lista (desenvolvida em sala), List e LinkedList (ApiJava);_
 
-**↪Entrega:** _link do repositório do github;_
+**↪ Entrega:** _link do repositório do github;_
 
 1. Utilizando o estrutura de dados **Lista**, desenvolva os seguintes métodos: (3 pontos)
 
