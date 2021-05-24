@@ -80,9 +80,10 @@ public class Paciente {
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + ((sintoma == null) ? 0 : sintoma.hashCode());
         result = prime * result + ((nome == null) ? 0 : nome.hashCode());
         result = prime * result + ((nascimento == null) ? 0 : nascimento.hashCode());
+        result = prime * result + ((sintoma == null) ? 0 : sintoma.hashCode());
+        result = prime * result + ((prioridade == null) ? 0 : prioridade.hashCode());
         return result;
     }
 
@@ -95,11 +96,6 @@ public class Paciente {
         if (getClass() != obj.getClass())
             return false;
         Paciente other = (Paciente) obj;
-        if (sintoma == null) {
-            if (other.sintoma != null)
-                return false;
-        } else if (!sintoma.equals(other.sintoma))
-            return false;
         if (nome == null) {
             if (other.nome != null)
                 return false;
@@ -109,6 +105,16 @@ public class Paciente {
             if (other.nascimento != null)
                 return false;
         } else if (!nascimento.equals(other.nascimento))
+            return false;
+        if (sintoma == null) {
+            if (other.sintoma != null)
+                return false;
+        } else if (!sintoma.equals(other.sintoma))
+            return false;
+        if (prioridade == null) {
+            if (other.prioridade != null)
+                return false;
+        } else if (!prioridade.equals(other.prioridade))
             return false;
         return true;
     }
