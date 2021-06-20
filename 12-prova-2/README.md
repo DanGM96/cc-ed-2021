@@ -17,7 +17,7 @@
 -   Empilhar elemento
 -   Desempilhar elemento
 -   Mostrar o topo
--   Imprimir tudo zerando, a pilha
+-   Imprimir tudo, zerando a pilha
 -   Sair
 
 5. Escreva um programa recursivo que encontre máximo divisor comum (mdc) de dois inteiros. Ex mdc (12,6) = 6, mdc (12,20) = 4
