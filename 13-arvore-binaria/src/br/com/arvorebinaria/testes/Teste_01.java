@@ -1,4 +1,4 @@
-package br.com.trabalho.testes;
+package br.com.arvorebinaria.testes;
 
 public class Teste_01 {
     public static void main(String[] args) {

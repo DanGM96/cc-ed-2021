@@ -1,4 +1,4 @@
-package br.com.trabalho.estruturadedados;
+package br.com.arvorebinaria.estruturadedados;
 
 public class No {
     No noEsquerdo;
